@@ -1,7 +1,5 @@
 language: C++
-before_install:
-	- sudo apt-get update
-	- sudo apt-get -f install 
+
 
 compiler:
        - gcc
