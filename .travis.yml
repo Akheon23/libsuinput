@@ -1,5 +1,6 @@
 language: C++
 
+install: ./autogen.sh
 
 compiler:
        - gcc
