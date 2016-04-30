@@ -1,9 +1,11 @@
 language: C++
 
-install: ./autogen.sh
+
 
 compiler:
        - gcc
+
+befor_install: ./autogen.sh
 install: true
 
 
