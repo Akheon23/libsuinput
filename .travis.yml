@@ -5,7 +5,9 @@ language: C++
 compiler:
        - gcc
 
-befor_install: ./autogen.sh
+before_install: ./autogen.sh
+
+
 install: true
 
 
