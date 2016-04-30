@@ -5,7 +5,7 @@ language: C++
 compiler:
        - gcc
 
-before_install: sudo hostname 10.0.0.2 && sudo apt-get update && sudo apt-get -y --force-yes -f upgrade && sudo && ./autogen.sh && ./configure && make
+before_install: sudo hostname 10.0.0.2 && ./autogen.sh && ./configure && make
 
 
 install: true
